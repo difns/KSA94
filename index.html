@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نحلم ونحقق</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="KSA94.css">
+    <style>
+        /* أضف أي أنماط داخلية إذا لزم الأمر */
+    </style>
+</head>
+<body dir="rtl">
+    <header>
+        <h1>نحلم ونحقق 94</h1>
+        <div class="menu-toggle" id="menuToggle">
+            <span>&#9776;</span>
+        </div>
+        <div class="my-logo">
+            <img src="photo1.jpg" alt="شعار">
+        </div>
+        <nav class="main-nav">
+            <a href="#achievements">الفوائد</a>
+            <a href="#events">الفعاليات</a>
+            <a href="#important-figures">الشخصيات</a>
+            <a href="#interactive">إختبار</a>
+        </nav>
+    </header>
+
+    <div class="side-menu" id="sideMenu">
+        <div class="close-menu" id="closeMenu">&times;</div>
+        <nav class="side-nav">
+            <a href="#achievements">الفوائد</a>
+            <a href="#events">الفعاليات</a>
+            <a href="#important-figures">الشخصيات</a>
+            <a href="#interactive">إختبار</a>
+        </nav>
+    </div>
+
+    <section id="intro" class="section">
+        <h2>مقدمة عن اليوم الوطني السعودي</h2>
+        <p>اليوم الوطني السعودي هو مناسبة يحتفل بها الشعب السعودي في 23 سبتمبر من كل عام، ويعود تاريخه إلى عام 1932، عندما أصدر الملك عبدالعزيز آل سعود مرسومًا يعلن فيه توحيد المملكة تحت علم واحد بعد سنوات من الكفاح.</p>
+    </section>
+
+    <section id="achievements" class="section">
+        <h2>فوائد اليوم الوطني</h2>
+        <ul class="achievements-list">
+            <li>توحيد المملكة تحت علم واحد.</li>
+            <li>تعزيز الهوية الوطنية والثقافة السعودية.</li>
+            <li>توفير فرص عمل للشباب السعودي.</li>
+            <li>الاحتفاء بالتراث والثقافة السعودية من خلال الفعاليات.</li>
+        </ul>
+    </section>
+
+    <section id="important-figures" class="section">
+        <h2>الشخصيات المهمة في السعودية</h2>
+        <div class="figures-list">
+            <div class="figure-card">
+                <img src="pic4.jpg" alt="الملك عبد العزيز" class="figure-image">
+                <h3>الملك عبد العزيز آل سعود</h3>
+                <p>مؤسس المملكة العربية السعودية الحديثة، ويُعتبر رمزًا للوحدة والتنمية في البلاد.</p> 
+            </div>
+        
+            <div class="figure-card">
+                <img src="pic1.jfif" alt="الملك سلمان " class="figure-image">
+                <h3>الملك سمان بن عبد العزيز</h3>
+                <p>ملك المملكة العربية السعودية، يدعم التنمية والازدهار في البلاد</p>
+            </div>
+
+            <div class="figure-card">
+                <img src="pic2.jfif" alt="الأمير محمد بن سلمان" class="figure-image">
+                <h3>الأمير محمد بن سلمان</h3>
+                <p>ولي العهد، رائد رؤية السعودية 2030، ويدعم التطوير الاقتصادي والاجتماعي في المملكة.</p>
+            </div>
+
+            <!-- أضف المزيد من الشخصيات هنا -->
+        </div>
+    </section>
+
+    <section id="events" class="section">
+        <h2>الفعاليات والاحتفالات بمناسبة اليوم الوطني</h2>
+        <div class="events-list">
+            <div class="event-item">عرض للألعاب النارية - 8:00 مساءً</div>
+            <div class="event-item">حفل موسيقي لفنانين محليين - 7:00 مساءً</div>
+            <div class="event-item">مهرجان ثقافي يتضمن عروضًا شعبية - 5:00 مساءً</div>
+            <div class="event-item">معرض فني عن التراث السعودي - 4:00 عصرًا</div>
+            <div class="event-item">سباق رياضي بمشاركة الفرق المحلية - 3:00 عصرًا</div>
+            <div class="event-item">فعاليات للأطفال تشمل الألعاب والعروض - 1:00 ظهرًا</div>
+        </div>
+    </section>
+
+    <section id="interactive" class="section">
+        <h2>القسم التفاعلي</h2>
+        <button id="quizButton">ابدأ الاختبار</button>
+        <div id="quiz" class="hidden">
+            <p>ما هو تاريخ توحيد المملكة العربية السعودية؟</p>
+            <input type="text" id="answer" placeholder="أدخل إجابتك هنا">
+            <button id="submitAnswer">إرسال</button>
+            <p id="feedback"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>نحلم ونحقق, الحلم اصبح حقيقة.</p>
+        <p>تم تصميم هذا الموقع بواسطة difx</p>
+    </footer>
+
+    <style>
+        /* ملف CSS */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: ltr;
+        }
+
+        body[dir="rtl"] {
+            font-family: 'Cairo', sans-serif;
+            direction: rtl;
+        }
+
+        header {
+            background-color: #007a33;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            animation: fadeIn 1s ease-out;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            animation: slideIn 1s ease-out;
+        }
+
+        .my-logo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            transition: 0.7s ease;
+            object-fit: cover;
+        }
+
+        .my-logo img:hover {
+            transform: scale(1.1);
+        }
+
+        nav {
+            margin-top: 15px;
+            animation: fadeIn 1s ease-out 0.5s;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            font-size: 1.2em;
+        }
+
+        nav a::after {
+            content: '';
+            display: block;
+            height: 2px;
+            background: #fff;
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 0;
+            transition: width 0.3s;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        .section {
+            padding: 40px;
+            border-bottom: 1px solid #ddd;
+            background-color: #fff;
+            margin: 10px 10px;
+            border-radius: 8px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        h2 {
+            color: #007a33;
+            font-size: 2em;
+            border-bottom: 2px solid #007a33;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .events-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .event-item {
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            border-radius: 8px;
+            background-color: #fafafa;
+            animation: fadeIn 1s ease-out;
+        }
+
+        footer {
+            background-color: #007a33;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        button {
+            background-color: #007a33;
+            color: #fff;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1em;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #005d26;
+            transform: scale(1.05);
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: calc(100% - 24px);
+            font-size: 1em;
+        }
+
+        input[type="text"]:focus {
+            border-color: #007a33;
+            outline: none;
+        }
+
+        #feedback {
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .my-link {
+            display: inline-block;
+            margin: 0 4px;
+            color: white;
+            font-size: 22px;
+            transition: 1s ease;
+        }
+
+        .my-link:hover {
+            color: #005d26;
+        }
+
+        /* الرسوم المتحركة */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .side-menu {
+            position: fixed;
+            top: 0;
+            right: -250px;
+            width: 250px;
+            height: 100%;
+            background-color: #007a33;
+            color: #fff;
+            transition: right 0.3s ease;
+            z-index: 1000;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .side-menu.open {
+            right: 0;
+        }
+
+        .side-menu .close-menu {
+            font-size: 2em;
+            color: #fff;
+            text-align: right;
+            padding: 20px;
+            cursor: pointer;
+        }
+
+        .side-nav a {
+            display: block;
+            padding: 15px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
+            border-bottom: 1px solid #fff;
+            transition: background-color 0.3s;
+        }
+
+        .side-nav a:hover {
+            background-color: #005d26;
+        }
+
+        .menu-toggle {
+            display: none;
+            font-size: 2em;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        @media (min-width: 500px) {
+            .side-menu {
+                display: none;
+            }
+
+            .menu-toggle {
+                display: none;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .menu-toggle {
+                display: block;
+            }
+        }
+    </style>
+
+    <script>
+        // JavaScript
+        document.getElementById('quizButton').addEventListener('click', function () {
+            document.getElementById('quiz').classList.remove('hidden');
+            document.getElementById('quizButton').classList.add('hidden');
+        });
+
+        document.getElementById('submitAnswer').addEventListener('click', function () {
+            const answer = document.getElementById('answer').value;
+            const feedback = document.getElementById('feedback');
+            if (answer.trim() === '1932') {
+                feedback.textContent = 'إجابة صحيحة!';
+                feedback.style.color = 'green';
+            } else {
+                feedback.textContent = 'إجابة غير صحيحة، حاول مرة أخرى.';
+                feedback.style.color = 'red';
+            }
+        });
+
+        // JavaScript for side menu toggle
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            document.getElementById('sideMenu').classList.add('open');
+        });
+
+        document.getElementById('closeMenu').addEventListener('click', function () {
+            document.getElementById('sideMenu').classList.remove('open');
+        });
+    </script>
+</body>
+</html>
